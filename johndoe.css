@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(0, 0, 0);
+    margin: 0 0 0 120px;
+}
+/* ------------------------------------------------------- css bar */
+header .bar ul{
+    list-style: none;
+    width: 120px;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    position: fixed;
+    left: 0;
+
+}
+header .bar ul img{
+    width: 100%;
+    height: auto;
+}
+header .bar button{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(34, 34, 34);
+    border: none;
+    margin: 12px 0;
+}
+header .bar button:hover{
+    transition: .2s ease;
+    background-color: black;
+}
+/* ---------------------------------------------------------- css main */
+main{
+    text-align: center;
+}
+main h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 18;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0 20px 0;
+}
+main p{
+    color: white;
+    font-size: 18px;
+}
+/* ------------------------------------------------------------ css skill */
+nav.about{
+    margin: 0 110px;
+}
+nav.about .my-name h2{
+    width: 21%;
+    font-size: 35px;
+    padding: 25px 0;
+    margin: 25px 0;
+    font-weight: 17;
+    color: #fff;
+    border-bottom: solid 1px white;
+}
+nav.about .my-name p{
+    color: rgb(179, 179, 179);
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+nav.about .my-skills .skill p{
+    color: rgb(162, 154, 154);
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+nav.about .my-skills .skill h3{
+    color: #fff;
+    margin: 25px 0;
+    font-size: 27px;
+    font-weight: 15;
+}
+/* --------------------------------------------------css % skill */
+nav.about .my-skills .skill .photo{
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 28px;
+    margin: 18px 0;
+}
+nav.about .my-skills .skill .photo .grey{
+    border-radius: 3px;
+    background-color: rgb(121, 121, 121);
+    width: 87%;
+    height: 100%;
+}
+nav.about .my-skills .skill .web{
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 28px;
+    margin: 18px 0;
+}
+nav.about .my-skills .skill .web .blue{
+    border-radius: 3px;
+    background-color: rgb(121, 121, 121);
+    width: 68%;
+    height: 100%;
+}
+nav.about .my-skills .skill .pts{
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 28px;
+    margin: 18px 0;
+}
+nav.about .my-skills .skill .pts .red{
+    border-radius: 3px;
+    background-color: rgb(121, 121, 121);
+    width: 90%;
+    height: 100%;
+}
+nav.about .my-skills .skill h2{
+    text-align: right;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    padding: 1px 15px;
+    border-right: solid 3px rgb(0, 0, 0);
+}
+/* -------------------------------------------------------- css information */
+nav.about .information{
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    height: 100%;
+    margin: 50px 0 30px 0;
+}
+nav.about .information .infor{
+    display: inline-block;
+    width: 24%;
+    height: auto;
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+nav.about .information .infor h2{
+    font-size: 30px;
+    font-weight: 15;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.about .information .infor p{
+    font-size: 18px;
+    margin: 12px 0;
+}
+/* ------------------------------------------------------------- css downnload */
+nav.about .download button{
+    padding: 18px 35px;
+    border: none;
+}
+nav.about .download button:hover{
+    background-color: rgb(169, 134, 134);
+    transition: .7s ease;
+}
+nav.about .download button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: black;
+}
+/* -------------------------------------------------------------- css my-price ... left */
+nav.about .my-price h3{
+    font-size: 35px;
+    padding: 25px 0;
+    margin: 25px 0;
+    font-weight: 17;
+    color: white;
+}
+nav.about .my-price .left{
+    background-color: white;
+    width: 45%;
+    display: inline-block;
+    height: auto;
+    margin: 20px 24px;
+}
+nav.about .my-price .left h2{
+    text-align: center;
+    font-size: 25px;
+    padding: 35px 0 10px 0;
+    font-weight: 20;
+}
+nav.about .my-price .left p{
+    text-align: center;
+    padding: 17px 0;
+}
+nav.about .my-price .left h5{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(189, 169, 169);
+    padding: 0 0 20px 0;
+    font-weight: 10;
+}
+nav.about .my-price .left button{
+    padding: 10px 25px;
+    margin: 15px 0;
+    border: none;
+    font-size: 18px;
+    background-color: #fff;
+}
+nav.about .my-price .left button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    transition: .5s ease;
+}
+nav.about .my-price .left ul li{
+    border-bottom: solid 1px rgb(206, 182, 182);
+}
+/* -------------------------------------------------------------- css my-price ... right */
+nav.about .my-price .right{
+    background-color: white;
+    width: 45%;
+    display: inline-block;
+    height: auto;
+    margin: 20px 24px;
+}
+nav.about .my-price .right h2{
+    text-align: center;
+    font-size: 25px;
+    padding: 35px 0 10px 0;
+    font-weight: 20;
+}
+nav.about .my-price .right p{
+    text-align: center;
+    padding: 17px 0;
+}
+nav.about .my-price .right h5{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(189, 169, 169);
+    padding: 0 0 20px 0;
+    font-weight: 10;
+}
+nav.about .my-price .right button{
+    padding: 10px 25px;
+    margin: 15px 0;
+    border: none;
+    font-size: 18px;
+    background-color: #fff;
+}
+nav.about .my-price .right button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    transition: .5s ease;
+}
+nav.about .my-price .right ul li{
+    border-bottom: solid 1px rgb(206, 182, 182);
+}
+/* ----------------------------------------------------------------------- css my-reputation */
+nav.about .my-price .my-reputation{
+    font-size: 25px;
+    padding: 25px 0;
+    margin: 25px 0;
+    font-weight: 5;
+    color: white;
+}
+nav.about .my-price .my-reputation .user{
+    margin: 50px 0 10px 0;
+    text-align: center;
+}
+nav.about .my-price .my-reputation .user .user-1{
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+}
+nav.about .my-price .my-reputation .user .user-2{
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+}
+nav.about .my-price .my-reputation img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+nav.about .my-price .my-reputation .user .user-1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0 10px 0;
+    margin: 2px 0 20px 0;
+    font-size: 28px;
+}
+nav.about .my-price .my-reputation .user .user-1 p{
+    margin: 10px 0;
+    font-size: 18px;
+    font-style: italic;
+    color: grey;
+}
+nav.about .my-price .my-reputation .user .user-1 h4{
+    margin: 15px 0;
+    font-weight: 5;
+    letter-spacing: 1px;
+}
+nav.about .my-price .my-reputation .user .user-2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0 10px 0;
+    margin: 2px 0 20px 0;
+    font-size: 28px;
+}
+nav.about .my-price .my-reputation .user .user-2 p{
+    margin: 10px 0;
+    font-size: 18px;
+    font-style: italic;
+    color: grey;
+}
+nav.about .my-price .my-reputation .user .user-2 h4{
+    margin: 15px 0;
+    font-weight: 5;
+    letter-spacing: 1px;
+}
+/* ----------------------------------------------------------------- css my photos */
+nav.photos{
+    margin: 0 110px;
+}
+nav.photos .my-photo h2{
+    width: 21%;
+    font-size: 35px;
+    padding: 25px 0;
+    margin: 25px 0;
+    font-weight: 17;
+    color: #fff;
+    border-bottom: solid 1px white;
+}
+nav.photos .left-pic{
+    display: inline-block;
+    width: 48%;
+    margin: 10px 10px 10px 0;
+}
+nav.photos .right-pic{
+    display: inline-block;
+    width: 48%;
+    margin: 10px 0 10px 10px;
+}
+nav.photos .left-pic img{
+    padding: 5px 0;
+    width: 100%;
+    height: auto;
+}
+nav.photos .right-pic img{
+    width: 100%;
+    height: auto;
+}
+/* ------------------------------------------------------------------------ css contact */
+nav.contact{
+    margin: 0 110px 120px 110px;
+}
+nav.contact .contact-me h2{
+    width: 28%;
+    font-size: 35px;
+    padding: 25px 0;
+    margin: 25px 0;
+    font-weight: 17;
+    color: #fff;
+    border-bottom: solid 1px white;
+}
+/* --------------------------------------------------------------------------- css icon */
+nav.contact .icon li{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+nav.contact .icon i{
+    color: #fff;
+    font-size: 40px;
+    padding: 0 20px 23px 0;
+}
+/* ------------------------------------------------------------------------------css send input */
+nav.contact .send{
+    margin: 0 0 80px 0;
+}
+nav.contact .send p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(182, 159, 159);
+    letter-spacing: 2px;
+    margin: 50px 0 10px 0;
+}
+nav.contact .send input{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+nav.contact .send button{
+    padding: 15px 25px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+nav.contact .footer p{
+    display: inline-block;
+}
+nav.contact .footer p a{
+    font-size: 25px;
+    margin: 50px 2px 15px 0;
+    color: rgb(179, 161, 161);
+    text-decoration: none;
+}
+nav.contact .footer h5{
+    font-size: 18px;
+    color: rgb(207, 187, 187);
+    font-weight: 2;
+    letter-spacing: 2px;
+}
+nav.contact .footer h5 a{
+    color: rgb(201, 169, 169);
+    font-style: italic;
+}
